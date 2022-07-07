@@ -25,6 +25,9 @@ Today:
 ✅ 08:43:01 | make 1 task for coaching
 ```
 
+Run every 2 minutes in bash:
+`watch -n 120 "python show_completed_tasks.py"`
+
 # Limitations
 On free plan Todoist only keeps 30 completed tasks in its database. This script caches the data when I has it, removing the duplicates, and storing it back to disk. However, if you haven't run it and in the meanwhile completed more than 30 tasks, you will lose some information.
 
